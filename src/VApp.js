@@ -20,7 +20,7 @@ function VApp() {
           <Route path="/showdata/" element={<Showdata />}></Route>
           {/* <Route path="/*" element={<Task1 />}></Route> */}
           <Route exact path="/Task2/" element={<Task2 />}>
-            <Route exact path="Task1" element={<Task1 />} />
+            <Route exact path="Task1" element={<Task1 />} ></Route>
           </Route>
           <Route path="/Nav/:name" element={<NavPar />}></Route>
           <Route path="/Ref1" element={<Ref1 />} />
